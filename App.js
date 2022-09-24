@@ -30,6 +30,8 @@ export default function App() {
   const [coordinates, setCoordinates] = useState({
     latitude: "",
     longitude: "",
+    // Tässä ei ole nyt mitään koordinaatteja alustettu (pitäisi tulla oma sijainti heti.)
+    //runko täysin sama tehtävästä kahdeksan.
   });
 
   const searchCordinates = async () => {
